@@ -2,44 +2,51 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-  }
- /* common styleor utilites*/
-body{
+}
+
+/* common styleor utilites*/
+body {
     font-family: 'Poppins', sans-serif;
     color: black;
 }
- .header-section{
+
+.header-section {
     display: flex;
     margin-top: 50px;
     width: 1380px;
     height: 645px;
     margin-bottom: 60px;
-    margin-left:65px;
+    margin-left: 65px;
     background: #161616;
-    border-radius: 25px; 
+    border-radius: 25px;
 }
-.header-contaent{
-    margin-top:110px;
+
+.header-contaent {
+    margin-top: 110px;
     margin-left: 106px;
     width: 45%;
 }
-.span-color{
+
+.span-color {
     color: #d82d47;
 }
-h1{
+
+h1 {
     color: #fff;
     font-size: 60px;
     line-height: 80px;
     margin-bottom: 20px;
     font-weight: 700;
 }
-p{
+
+p {
     color: #fff;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 40px;
 }
-.header-button{
+
+.header-button {
     color: #fff;
     font-size: 18px;
     padding: 10px 30px;
@@ -47,34 +54,41 @@ p{
     border-radius: 25px;
     background-color: #d82d47;
 }
-.fa-angle-right{
+
+.fa-angle-right {
     font-size: 18px;
     margin-left: 8px;
 }
-.img-contant{
+
+.img-contant {
     width: 51.8%;
     margin-top: 33px;
     margin-left: 24px;
 }
-.img-contant img{
+
+.img-contant img {
     width: 86.9%;
 }
+
 /*--------- nine colume-------------- */
-.main-contant{
+.main-contant {
     position: relative;
 }
+
 /* ------right button group------------- */
-.main-box{
+.main-box {
     display: flex;
     width: 1000px;
-    margin-left:-62px;
+    margin-left: -62px;
 }
-.frist-box{
+
+.frist-box {
     margin-left: 120px;
     margin-top: -8px;
     width: 300px;
     height: 300px;
 }
+
 .btn {
     width: 312px;
     margin: 10px;
@@ -84,9 +98,10 @@ p{
     margin-bottom: 30px;
     background-color: #161616;
 }
-.btn a{
-    color: 
-    #161616;
+
+.btn a {
+    color:
+        #161616;
     display: block;
     text-align: center;
     font-size: 20px;
@@ -96,12 +111,14 @@ p{
     text-decoration: none;
     background-color: #f9f8f8;
 }
+
 .btn .button-color-g {
     background-color: #d82d47;
     color: #f9f8f8;
 }
+
 /* ---------grid section---------- */
-.grid-section{
+.grid-section {
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -110,15 +127,17 @@ p{
     gap: 24px;
     grid-row-gap: 30px;
     margin-left: 100px;
-    
+
 }
-.box-1{
+
+.box-1 {
     width: 312px;
     height: 242px;
     border: 1px solid #e8e8e8;
     border-radius: 10px;
 }
-.containt-box{
+
+.containt-box {
     display: flex;
     width: 333px;
     height: 242px;
@@ -127,51 +146,55 @@ p{
     align-content: center;
     align-content: space-around;
     align-content: center;
-    
+
 }
-.box-1 img{
+
+.box-1 img {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.middle-text{
+.middle-text {
     color: #161616;
     font-weight: 700;
     font-size: 16px;
     text-align: center;
     margin-top: 20px;
-    
-}
-.flag-img-1{
 
 }
-.flag-img-2{
+
+.flag-img-1 {}
+
+.flag-img-2 {
     width: 93.04px;
     height: 54.42px;
-    
+
 }
 
-h3{
+h3 {
     width: 202px;
     height: 30px;
     margin-top: ;
-   
+
 }
-.h3-3{
+
+.h3-3 {
     color: #161616;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
 }
-h4{
+
+h4 {
     width: 166px;
     height: 20px;
     left: 549px;
     top: 995.18px;
 
 }
-.h4-4{
+
+.h4-4 {
     color: #4D4D4D;
     width: 166px;
     height: 20px;
@@ -181,13 +204,15 @@ h4{
 
 }
 
-.i-i{color: #4D4D4D;
-   
+.i-i {
+    color: #4D4D4D;
+
     font-size: 16px;
     text-align: center;
 
 }
-.Btn{
+
+.Btn {
     color: #161616;
     text-decoration: none;
     padding: 4px 18px;
@@ -202,40 +227,55 @@ h4{
 
 
 /* footer sections :start */
-.contant{
+.contant {
     position: relative;
     color: #fff;
     background-color: #161616;
     height: 444px;
     text-align: center;
-   
+
 }
-.margin-tp{
+
+.margin-tp {
     padding-top: 140px;
 }
-h2{
+
+h2 {
     font-size: 35px;
     margin-bottom: 40px;
     font-weight: 500;
     color: #fff;
 }
-.border{
+
+.border {
     border: 0.4px solid #d1d1d155;
     margin-bottom: 80px;
     width: 1320px;
     margin-left: 120px;
 }
-.li-list ul{
+
+.li-list ul {
     justify-content: center;
     display: flex;
     gap: 50px;
-  
+
 }
-.li-list li{
+
+.li-list li {
     list-style: none;
-   
+
 }
-li{
+
+li {
     color: #b2afaf;
 }
 
+/*######## mobile device######## */
+@media screen and (max-width:688px) {
+    .header-section {
+        width: 100%;
+    }
+    .header-contaent{
+        grid-template-columns:repeat(1,1fr);
+    }
+}
